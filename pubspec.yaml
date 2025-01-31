@@ -1,0 +1,19 @@
+name: wearable_assistant
+description: "Um aplicativo Wear OS para assistência de funcionários com necessidades especiais."
+publish_to: "none" # Impede que seja publicado no pub.dev
+
+environment:
+  sdk: ">=3.6.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  audioplayers: ^0.20.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^2.0.0
+
+flutter:
+  uses-material-design: true
